@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CFAB81149E89FED11D5155F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41051976AFC7CDBD041A498B /* Pods.framework */; };
+		AF0177051CA3F23F0039EE13 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177031CA3F23F0039EE13 /* ApiManager.swift */; };
+		AF0177061CA3F23F0039EE13 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177041CA3F23F0039EE13 /* MyApp.swift */; };
+		AF0177111CA3F2B90039EE13 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177081CA3F2B90039EE13 /* BaseRequest.swift */; };
+		AF0177121CA3F2B90039EE13 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177091CA3F2B90039EE13 /* BaseResponse.swift */; };
+		AF0177131CA3F2B90039EE13 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770A1CA3F2B90039EE13 /* MemberModel.swift */; };
+		AF0177141CA3F2B90039EE13 /* Oauth2AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770B1CA3F2B90039EE13 /* Oauth2AuthModel.swift */; };
+		AF0177151CA3F2B90039EE13 /* Oauth2AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770C1CA3F2B90039EE13 /* Oauth2AuthResponse.swift */; };
+		AF0177161CA3F2B90039EE13 /* SetlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770D1CA3F2B90039EE13 /* SetlogModel.swift */; };
+		AF0177171CA3F2B90039EE13 /* SetlogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770E1CA3F2B90039EE13 /* SetlogResponse.swift */; };
+		AF0177181CA3F2B90039EE13 /* WebsiteConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770F1CA3F2B90039EE13 /* WebsiteConfigModel.swift */; };
+		AF0177191CA3F2B90039EE13 /* WebsiteConfigResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177101CA3F2B90039EE13 /* WebsiteConfigResponse.swift */; };
 		AF5251D11CA2976F006698FD /* UXConnectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5251D01CA2976F006698FD /* UXConnectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF5251D81CA29770006698FD /* UXConnectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5251CD1CA2976F006698FD /* UXConnectKit.framework */; };
 		AF5251DD1CA29770006698FD /* UXConnectKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5251DC1CA29770006698FD /* UXConnectKitTests.swift */; };
@@ -23,6 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41051976AFC7CDBD041A498B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B8CE6A48E13D801C6ED946 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		86BC957065331199B443870E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0177031CA3F23F0039EE13 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		AF0177041CA3F23F0039EE13 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		AF0177081CA3F2B90039EE13 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		AF0177091CA3F2B90039EE13 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		AF01770A1CA3F2B90039EE13 /* MemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
+		AF01770B1CA3F2B90039EE13 /* Oauth2AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2AuthModel.swift; sourceTree = "<group>"; };
+		AF01770C1CA3F2B90039EE13 /* Oauth2AuthResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oauth2AuthResponse.swift; sourceTree = "<group>"; };
+		AF01770D1CA3F2B90039EE13 /* SetlogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetlogModel.swift; sourceTree = "<group>"; };
+		AF01770E1CA3F2B90039EE13 /* SetlogResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetlogResponse.swift; sourceTree = "<group>"; };
+		AF01770F1CA3F2B90039EE13 /* WebsiteConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteConfigModel.swift; sourceTree = "<group>"; };
+		AF0177101CA3F2B90039EE13 /* WebsiteConfigResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteConfigResponse.swift; sourceTree = "<group>"; };
 		AF5251CD1CA2976F006698FD /* UXConnectKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UXConnectKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5251D01CA2976F006698FD /* UXConnectKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UXConnectKit.h; sourceTree = "<group>"; };
 		AF5251D21CA2976F006698FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFAB81149E89FED11D5155F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +77,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29811318C2415A3C13D2E82D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86BC957065331199B443870E /* Pods.debug.xcconfig */,
+				79B8CE6A48E13D801C6ED946 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF0177021CA3F23F0039EE13 /* UitoxCommon */ = {
+			isa = PBXGroup;
+			children = (
+				AF0177031CA3F23F0039EE13 /* ApiManager.swift */,
+				AF0177041CA3F23F0039EE13 /* MyApp.swift */,
+			);
+			path = UitoxCommon;
+			sourceTree = "<group>";
+		};
+		AF0177071CA3F2B90039EE13 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF0177081CA3F2B90039EE13 /* BaseRequest.swift */,
+				AF0177091CA3F2B90039EE13 /* BaseResponse.swift */,
+				AF01770A1CA3F2B90039EE13 /* MemberModel.swift */,
+				AF01770B1CA3F2B90039EE13 /* Oauth2AuthModel.swift */,
+				AF01770C1CA3F2B90039EE13 /* Oauth2AuthResponse.swift */,
+				AF01770D1CA3F2B90039EE13 /* SetlogModel.swift */,
+				AF01770E1CA3F2B90039EE13 /* SetlogResponse.swift */,
+				AF01770F1CA3F2B90039EE13 /* WebsiteConfigModel.swift */,
+				AF0177101CA3F2B90039EE13 /* WebsiteConfigResponse.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
 		AF5251C31CA2976F006698FD = {
 			isa = PBXGroup;
 			children = (
+				AF0177071CA3F2B90039EE13 /* BaseModel */,
+				AF0177021CA3F23F0039EE13 /* UitoxCommon */,
 				AF5251CF1CA2976F006698FD /* UXConnectKit */,
 				AF5251DB1CA29770006698FD /* UXConnectKitTests */,
 				AF5251CE1CA2976F006698FD /* Products */,
+				29811318C2415A3C13D2E82D /* Pods */,
+				FC22CBE2250FD541889D0289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +151,14 @@
 			path = UXConnectKitTests;
 			sourceTree = "<group>";
 		};
+		FC22CBE2250FD541889D0289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41051976AFC7CDBD041A498B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5251E11CA29770006698FD /* Build configuration list for PBXNativeTarget "UXConnectKit" */;
 			buildPhases = (
+				C7553AFA2CF21E3491EE2F5B /* Check Pods Manifest.lock */,
 				AF5251C81CA2976F006698FD /* Sources */,
 				AF5251C91CA2976F006698FD /* Frameworks */,
 				AF5251CA1CA2976F006698FD /* Headers */,
 				AF5251CB1CA2976F006698FD /* Resources */,
+				F3F51E277A1D732405FA820E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +264,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7553AFA2CF21E3491EE2F5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F51E277A1D732405FA820E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF5251C81CA2976F006698FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0177051CA3F23F0039EE13 /* ApiManager.swift in Sources */,
+				AF0177181CA3F2B90039EE13 /* WebsiteConfigModel.swift in Sources */,
+				AF0177131CA3F2B90039EE13 /* MemberModel.swift in Sources */,
+				AF0177191CA3F2B90039EE13 /* WebsiteConfigResponse.swift in Sources */,
+				AF0177141CA3F2B90039EE13 /* Oauth2AuthModel.swift in Sources */,
+				AF0177161CA3F2B90039EE13 /* SetlogModel.swift in Sources */,
+				AF0177061CA3F23F0039EE13 /* MyApp.swift in Sources */,
+				AF0177151CA3F2B90039EE13 /* Oauth2AuthResponse.swift in Sources */,
+				AF0177171CA3F2B90039EE13 /* SetlogResponse.swift in Sources */,
+				AF0177111CA3F2B90039EE13 /* BaseRequest.swift in Sources */,
+				AF0177121CA3F2B90039EE13 /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +426,7 @@
 		};
 		AF5251E21CA29770006698FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BC957065331199B443870E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -323,6 +443,7 @@
 		};
 		AF5251E31CA29770006698FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B8CE6A48E13D801C6ED946 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -376,6 +497,7 @@
 				AF5251E31CA29770006698FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF5251E41CA29770006698FD /* Build configuration list for PBXNativeTarget "UXConnectKitTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +506,7 @@
 				AF5251E61CA29770006698FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

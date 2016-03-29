@@ -21,7 +21,12 @@ class UXConnectKitTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testCallApiGetWebConfig() {
+		
+		MyApp.sharedWebsiteConfigModel.callApiGetWebConfig(highPriorityDispatchQueue) { (resp, errorMessage) -> Void in
+			log.debug("dispatch_group_leave2")
+		}
+
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
