@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5CFAB81149E89FED11D5155F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41051976AFC7CDBD041A498B /* Pods.framework */; };
 		AF0177051CA3F23F0039EE13 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177031CA3F23F0039EE13 /* ApiManager.swift */; };
-		AF0177061CA3F23F0039EE13 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177041CA3F23F0039EE13 /* MyApp.swift */; };
 		AF0177111CA3F2B90039EE13 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177081CA3F2B90039EE13 /* BaseRequest.swift */; };
 		AF0177121CA3F2B90039EE13 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177091CA3F2B90039EE13 /* BaseResponse.swift */; };
 		AF0177131CA3F2B90039EE13 /* MemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770A1CA3F2B90039EE13 /* MemberModel.swift */; };
@@ -19,6 +18,7 @@
 		AF0177171CA3F2B90039EE13 /* SetlogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770E1CA3F2B90039EE13 /* SetlogResponse.swift */; };
 		AF0177181CA3F2B90039EE13 /* WebsiteConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01770F1CA3F2B90039EE13 /* WebsiteConfigModel.swift */; };
 		AF0177191CA3F2B90039EE13 /* WebsiteConfigResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0177101CA3F2B90039EE13 /* WebsiteConfigResponse.swift */; };
+		AF0178971CABC8650039EE13 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0178961CABC8650039EE13 /* MyApp.swift */; };
 		AF5251D11CA2976F006698FD /* UXConnectKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5251D01CA2976F006698FD /* UXConnectKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF5251D81CA29770006698FD /* UXConnectKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5251CD1CA2976F006698FD /* UXConnectKit.framework */; };
 		AF5251DD1CA29770006698FD /* UXConnectKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5251DC1CA29770006698FD /* UXConnectKitTests.swift */; };
@@ -39,7 +39,6 @@
 		79B8CE6A48E13D801C6ED946 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		86BC957065331199B443870E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF0177031CA3F23F0039EE13 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		AF0177041CA3F23F0039EE13 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		AF0177081CA3F2B90039EE13 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
 		AF0177091CA3F2B90039EE13 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		AF01770A1CA3F2B90039EE13 /* MemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberModel.swift; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		AF01770E1CA3F2B90039EE13 /* SetlogResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetlogResponse.swift; sourceTree = "<group>"; };
 		AF01770F1CA3F2B90039EE13 /* WebsiteConfigModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteConfigModel.swift; sourceTree = "<group>"; };
 		AF0177101CA3F2B90039EE13 /* WebsiteConfigResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteConfigResponse.swift; sourceTree = "<group>"; };
+		AF0178961CABC8650039EE13 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		AF5251CD1CA2976F006698FD /* UXConnectKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UXConnectKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5251D01CA2976F006698FD /* UXConnectKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UXConnectKit.h; sourceTree = "<group>"; };
 		AF5251D21CA2976F006698FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				AF0177031CA3F23F0039EE13 /* ApiManager.swift */,
-				AF0177041CA3F23F0039EE13 /* MyApp.swift */,
+				AF0178961CABC8650039EE13 /* MyApp.swift */,
 			);
 			path = UitoxCommon;
 			sourceTree = "<group>";
@@ -308,8 +308,8 @@
 				AF0177191CA3F2B90039EE13 /* WebsiteConfigResponse.swift in Sources */,
 				AF0177141CA3F2B90039EE13 /* Oauth2AuthModel.swift in Sources */,
 				AF0177161CA3F2B90039EE13 /* SetlogModel.swift in Sources */,
-				AF0177061CA3F23F0039EE13 /* MyApp.swift in Sources */,
 				AF0177151CA3F2B90039EE13 /* Oauth2AuthResponse.swift in Sources */,
+				AF0178971CABC8650039EE13 /* MyApp.swift in Sources */,
 				AF0177171CA3F2B90039EE13 /* SetlogResponse.swift in Sources */,
 				AF0177111CA3F2B90039EE13 /* BaseRequest.swift in Sources */,
 				AF0177121CA3F2B90039EE13 /* BaseResponse.swift in Sources */,
@@ -434,6 +434,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UXConnectKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uitox.UXConnectKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +452,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UXConnectKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uitox.UXConnectKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

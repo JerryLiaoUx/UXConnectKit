@@ -10,30 +10,30 @@ import Foundation
 import RealmSwift
 import ObjectMapper
 
-class MemberModel 
+public class MemberModel
 {
-	var guid: String {
+	public var guid: String {
 		if let memberData = memberData {
 			return memberData.guid
 		}		
 		return ""
 	}
 	
-	var email: String {
+	public var email: String {
 		if let memberData = memberData {
 			return memberData.email
 		}		
 		return ""
 	}
 	
-	var phone: String {
+	public var phone: String {
 		if let memberData = memberData {
 			return memberData.phone
 		}		
 		return ""
 	}
 	
-	var encodeGuid: String {
+	public var encodeGuid: String {
 		if let memberData = memberData {
 			return memberData.encodeGuid
 		}		
@@ -54,7 +54,7 @@ class MemberModel
 		}
 	}
 	
-	var deviceToken: String {
+	public var deviceToken: String {
 		get {
 			let realm = try! Realm()
 
@@ -77,7 +77,7 @@ class MemberModel
 		}
 	}
 	
-	var oauthCode: String {
+	public var oauthCode: String {
 		get {
 			let realm = try! Realm()
 
@@ -100,7 +100,7 @@ class MemberModel
 		}
 	}
 
-	var oauthAccessToken: String {
+	public var oauthAccessToken: String {
 		get {
 			let realm = try! Realm()
 
@@ -123,7 +123,7 @@ class MemberModel
 		}
 	}
 
-	var oauthRefreshToken: String {
+	public var oauthRefreshToken: String {
 		get {
 			let realm = try! Realm()
 
@@ -146,7 +146,7 @@ class MemberModel
 		}
 	}
 	
-	func deleteMemberData() {
+	public func deleteMemberData() {
 		let realm = try! Realm()
 
 		let results = realm.objects(MemberData)
@@ -157,7 +157,7 @@ class MemberModel
 		}
 	}
 	
-	func insertMemberDataIntoDisk(memberData: MemberData) {
+	public func insertMemberDataIntoDisk(memberData: MemberData) {
 		let realm = try! Realm()
 
 		realm.beginWrite()

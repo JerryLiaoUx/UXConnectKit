@@ -13,7 +13,7 @@ import UIKit
 public class MyApp
 {
 
-	static let sharedMember: MemberModel = {
+	public static let sharedMember: MemberModel = {
 		return MemberModel()
 	}()
 //
@@ -25,7 +25,7 @@ public class MyApp
 		return WebsiteConfigModel()
 	}()
 	
-//    static let sharedSearchKey: SearchModel = {
+//    public static let sharedSearchKey: SearchModel = {
 //        return SearchModel()
 //    }()
 }

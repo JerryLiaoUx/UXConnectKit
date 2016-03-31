@@ -135,7 +135,7 @@ public class ApiManager
 		return (mutableURLRequest, encodingError)
 	}
 	
-	func postDictionary<T:BaseResponse>(urlPath: String, queue: dispatch_queue_t = dispatch_get_main_queue(), params:BaseRequest?, completionHandler: (mapperObject: T?, errorMessage:String?) -> Void) {
+	public func postDictionary<T:BaseResponse>(urlPath: String, queue: dispatch_queue_t = dispatch_get_main_queue(), params:BaseRequest?, completionHandler: (mapperObject: T?, errorMessage:String?) -> Void) {
 		
 		let requestLog = logRequest(urlPath, params:params?.content)
 		

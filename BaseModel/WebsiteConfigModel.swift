@@ -12,10 +12,10 @@ import RealmSwift
 public class WebsiteConfigModel
 {
 	public typealias completedHandler = (resp: WebsiteConfigResponse?, errorMessage: String?) -> Void
-	var platformId: String = ApiManager.sharedInstance.platformId
-	var websiteConfigData:WebsiteConfigData?
+	public var platformId: String = ApiManager.sharedInstance.platformId
+	public var websiteConfigData:WebsiteConfigData?
 	
-	var configData: WebsiteConfigData? {
+	public var configData: WebsiteConfigData? {
 		get {
 			let realm = try! Realm()
 			
